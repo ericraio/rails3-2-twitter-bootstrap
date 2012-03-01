@@ -1,5 +1,13 @@
-FayeAnime::Application.routes.draw do
+Company::Application.routes.draw do
   
+
+  get "homepage/index"
+
+  get "episodes/show"
+
+  get "episodes/edit"
+
+  resources :animes
 
   root :to => "home#index"
 

@@ -6,8 +6,8 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  
-  
+
+  gem 'twitter-bootstrap-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'jquery-rails'
@@ -34,3 +34,4 @@ gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "devise", ">= 2.0.4"
 gem "devise_invitable", ">= 1.0.0"
 gem "rails-footnotes", ">= 3.7", :group => :development
+gem "achiever", :path => 'vendor/achiever'

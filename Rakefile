@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-FayeAnime::Application.load_tasks
+Company::Application.load_tasks
